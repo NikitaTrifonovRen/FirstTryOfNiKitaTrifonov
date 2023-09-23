@@ -12,7 +12,6 @@ public class GameGuessNumber {
 
     void gameLogic() {
         int y = (int) (Math.random() * 100);
-        System.out.println(y);
         System.out.println("Я загадал целое число от 1 до 100, угадывай, брат");
         int x;
         int tryCount = 1;
